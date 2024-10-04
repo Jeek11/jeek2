@@ -1,0 +1,28 @@
+.input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-left: 40px; /* Space for the icon */
+    height: 38px; /* Adjust height for better alignment */
+    background-color: #f9f9f9; /* Light background for inputs */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px; /* Space from the left */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Icon color */
+    font-size: 16px; /* Adjust icon size */
+}
+
+.input-icon input::placeholder {
+    color: transparent; /* Hide the default placeholder */
+}
+
+.input-icon input:focus::placeholder {
+    color: #aaa; /* Show placeholder color when focused */
+}
